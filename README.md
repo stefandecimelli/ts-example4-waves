@@ -4,3 +4,5 @@ Run it with
 ```
 npm run serve
 ```
+
+![screensot of app](/images/screenshot.png)
