@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color: #111;
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem 2rem;
+    font-weight: bolder;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    font-family: fantasy;
+    justify-content: space-between;
+}
+
+input {
+    padding: 0.25rem;
+    font-size: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    border: 1px solid #333;
+}
+
+footer {
+    z-index: 99999;
+    color: #999;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-right: 0.5rem;
+}
+
+#input-multiply {
+    margin-right: 2rem;
+}
