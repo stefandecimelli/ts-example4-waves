@@ -30,7 +30,6 @@ function drawLine(ctx: CanvasRenderingContext2D, width: number, height: number) 
 }
 
 function drawGrid(ctx: CanvasRenderingContext2D, width: number, height: number) {
-    console.log("Drawing grid")
     ctx.beginPath();
     const yAxisLength = height / UNIT;
     const xAxisLength = width / (UNIT * (width / height));
