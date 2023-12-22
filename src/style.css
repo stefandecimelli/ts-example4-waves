@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #333;
-    font-family: fantasy;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
     justify-content: space-between;
 }
 
